@@ -17,7 +17,7 @@ import static java.util.Objects.nonNull;
 public class DemoKafkaApplication {
 
 	private static final String msg = "Minha mensagem";
-	private static final String topic = "Minha mensagem";
+	private static final String topic = "DKP.DKC.01";
 
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		SpringApplication.run(DemoKafkaApplication.class, args);
